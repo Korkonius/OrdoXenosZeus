@@ -1,0 +1,34 @@
+onLoadMission = "Ordo Xenos Zeus";
+onLoadIntroTime = 1;
+onLoadIntro = "Ordo Xenos Zeus"
+overviewPicture = \a3\Missions_F_curator\data\img\mp_zgm_m11_overview_ca.paa;
+
+dev = "Eirik Ottesen";
+author = "Ordo Xenos";
+overviewText = "Ordo Xenos sandbox mission. Go derp, acquire chaos, success!";
+enableDebugConsole = 2;
+
+disabledAI = 1;
+joinUnassigned = 1;
+aiKills = 0;
+
+respawn = "BASE";
+
+respawnDelay = 20;
+respawnTemplatesWest[] = {"MenuPosition","MenuInventory"};
+respawnTemplatesEast[] = {"MenuPosition","MenuInventory"};
+respawnTemplatesGuer[] = {"MenuPosition","MenuInventory"};
+
+#include "VAS\menu.hpp"
+
+class CfgFunctions
+{
+	#include "VAS\cfgfunctions.hpp"
+};
+
+class Header
+{
+	gameType = ZGM;
+	minPlayers = 1;
+	maxPlayers = 17;
+};
