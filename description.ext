@@ -24,6 +24,7 @@ respawnTemplatesGuer[] = {"MenuPosition","MenuInventory"};
 class CfgFunctions
 {
 	#include "VAS\cfgfunctions.hpp"
+	#include "taw_vd\CfgFunctions.hpp"
 };
 
 class Header
